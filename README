@@ -1,10 +1,10 @@
 clone, copy config.example.js to config.js and fill in some details then
 
-    yarn && sudo npm install -g .
+  yarn && sudo npm install -g .
 
 Now you can generate a token with
 
-    chatkit-token '{ "userId": "alice", "su": true }'
+  chatkit-token '{ "userId": "alice", "su": true }'
 
 All options supported by @pusher/chatkit-server are supported, argument is
 JSON.
