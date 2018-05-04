@@ -1,0 +1,11 @@
+{
+  "bin": {
+    "chatkit-token": "main.js"
+  },
+  "name": "chatkit-token",
+  "version": "0.1.0",
+  "main": "main.js",
+  "dependencies": {
+    "@pusher/chatkit-server": "^0.12.1"
+  }
+}
