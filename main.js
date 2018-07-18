@@ -1,4 +1,4 @@
-#! /bin/node
+#! /usr/bin/env node
 
 const { default: Chatkit } = require('@pusher/chatkit-server')
 const config = require('./config.js')
