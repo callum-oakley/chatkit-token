@@ -1,6 +1,6 @@
 clone, copy config.example.js to config.js and fill in some details then
 
-  yarn && sudo npm install -g .
+  npm install -g .
 
 Now you can generate a token with
 
@@ -11,6 +11,6 @@ JSON.
 
 Good for curls
 
-  curl https://deneb.pusherplatform.io/services/chatkit/v1/$instance_id/users \
+  curl https://us1.pusherplatform.io/services/chatkit/v1/$instance_id/users \
   -X SUBSCRIBE \
   -H "Authorization: Bearer $(chatkit-token '{ "userId": "bob" }')"
