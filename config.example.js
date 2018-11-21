@@ -1,4 +1,14 @@
 module.exports = {
-  instanceLocator: '',
-  key: ''
+  development: {
+    instanceLocator: "",
+    key: "",
+  },
+  staging: {
+    instanceLocator: "",
+    key: "",
+  },
+  production: {
+    instanceLocator: "",
+    key: "",
+  },
 }

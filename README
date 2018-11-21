@@ -4,13 +4,15 @@ clone, copy config.example.js to config.js and fill in some details then
 
 Now you can generate a token with
 
-  chatkit-token '{ "userId": "alice", "su": true }'
+  chatkit-token <environment> '{ userId: "alice", su: true }'
 
-All options supported by @pusher/chatkit-server are supported, argument is
-JSON.
+Where `<environment>` is one of `production`, `staging`, or `development`.
+
+Second argument is JSON5, all options supported by @pusher/chatkit-server are
+supported.
 
 Good for curls
 
   curl https://us1.pusherplatform.io/services/chatkit/v1/$instance_id/users \
   -X SUBSCRIBE \
-  -H "Authorization: Bearer $(chatkit-token '{ "userId": "bob" }')"
+  -H "Authorization: Bearer $(chatkit-token development '{ userId: "bob" }')"

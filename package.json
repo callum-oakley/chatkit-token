@@ -6,6 +6,7 @@
   "version": "0.1.0",
   "main": "main.js",
   "dependencies": {
-    "@pusher/chatkit-server": "^0.12.1"
+    "@pusher/chatkit-server": "^0.12.1",
+    "json5": "^2.1.0"
   }
 }
