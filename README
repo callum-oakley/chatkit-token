@@ -6,7 +6,7 @@ Now you can generate a token with
 
   chatkit-token <environment> '{ userId: "alice", su: true }'
 
-Where `<environment>` is one of `production`, `staging`, or `development`.
+Where <environment> is one of production, staging, or development.
 
 Second argument is JSON5, all options supported by @pusher/chatkit-server are
 supported.
